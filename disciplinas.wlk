@@ -4,7 +4,7 @@ object tenis {
     var cantidadDeInvitados = 5
     var entrenadores = 4
 
-    method cantidadDeinvitados() = cantidadDeInvitados
+    method cantidadDeinvitados() = cantidadDeInvitados //invitados son de victoria
     method cambiarCantidadDeInvitados(nuevaCantInvitados){
         cantidadDeInvitados = nuevaCantInvitados
     }

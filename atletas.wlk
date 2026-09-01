@@ -20,14 +20,15 @@ object victoria {
     }
     method cambiarElemento(nuevoElemento){
         elemento = nuevoElemento
-    }
+    }//falta el presupuesto y e presupuesto propio
+    //var medallas va en victoria
 }
 
 object comiteOlimpico {
     var valorPorEntrenador = 10
 
     method medallasDeJudoGanadas() {
-        
+
     }
     method  sumarUnaMedallaDeJudoGanada(){
         medallasDeJudoGanadas += 1 
