@@ -20,11 +20,9 @@ object tenis {
 }
 
 object judo {
-    const entrenadores = 2
     var medallasDeJudoGanadas = 1
+    method entrenadores() = 2
 
-
-    method entrenadores() = entrenadores 
     method presupuestoDisciplina(atleta){   
         return 120 * comiteOlimpico.medallasDeJudoGanadas()
     }
