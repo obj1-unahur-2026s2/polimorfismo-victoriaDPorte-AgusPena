@@ -27,10 +27,16 @@ object victoria {
 object comiteOlimpico {
     var valorPorEntrenador = 10
 
+    method sueldoEntrenador() = valorPorEntrenador
+
+    method actualizarSueldo(nuevoSueldo){
+        valorPorEntrenador = nuevoSueldo
+    }
+
     method medallasDeJudoGanadas() {
 
     }
-    method  sumarUnaMedallaDeJudoGanada(){
+    method  sumarUnaMedallaDeJudoGanada(){// arreglar
         medallasDeJudoGanadas += 1 
     }
 }
